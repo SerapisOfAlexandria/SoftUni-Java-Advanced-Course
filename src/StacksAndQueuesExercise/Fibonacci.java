@@ -11,7 +11,7 @@ public class Fibonacci {
     }
 
     private static long fibonacci(int n, long[] memo){
-        if (n <= 2) {
+        if (n <= 1) {
             return 1;
         }
 
