@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="36b6828c-6e8d-40ab-8fc3-858427627f7b" name="Changes" comment="" />
+    <list default="true" id="36b6828c-6e8d-40ab-8fc3-858427627f7b" name="Changes" comment="&quot;completed softuni party problem&quot;">
+      <change afterPath="$PROJECT_DIR$/src/SetsAndMaps/AverageStudentGrades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SetsAndMaps/CountRealNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SetsAndMaps/Voina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2am64LKwNR4lx5UEXY7UQIj0F7j" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -13,12 +35,88 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Application.AverageStudentGrades">
+    <configuration name="AverageStudenGrades" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetsAndMaps.AverageStudenGrades" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SetsAndMaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AverageStudentGrades" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetsAndMaps.AverageStudentGrades" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SetsAndMaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountRealNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetsAndMaps.CountRealNumbers" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SetsAndMaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoftUniParty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetsAndMaps.SoftUniParty" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SetsAndMaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Voina" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetsAndMaps.Voina" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SetsAndMaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AverageStudentGrades" />
+        <item itemvalue="Application.AverageStudenGrades" />
+        <item itemvalue="Application.CountRealNumbers" />
+        <item itemvalue="Application.Voina" />
+        <item itemvalue="Application.SoftUniParty" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -28,6 +126,212 @@
       <option name="presentableId" value="Default" />
       <updated>1704911217747</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;first commit&quot;">
+      <created>1704912210298</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704912210298</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;Completed BrowserHistory task&quot;">
+      <created>1704921015618</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704921015618</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;Completed SimpleCalculator task&quot;">
+      <created>1704921033657</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704921033657</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&quot;Completed Decimal To Binary Converter&quot;">
+      <created>1704990458459</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704990458459</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&quot;Completed Printer Queue&quot;">
+      <created>1705133829893</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705133829893</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&quot;Solved Hot Potato Problem&quot;">
+      <created>1705138691456</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705138691456</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&quot;Solved Matching Brackets &amp; Math Potato&quot;">
+      <created>1705150378706</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705150378706</updated>
+    </task>
+    <task id="LOCAL-00008" summary="&quot;Completed Balanced Parentheses Problem&quot;">
+      <created>1705268163522</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705268163522</updated>
+    </task>
+    <task id="LOCAL-00009" summary="&quot;Completed Basic Queue Operations Problem&quot;">
+      <created>1705268181145</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705268181145</updated>
+    </task>
+    <task id="LOCAL-00010" summary="&quot;completed basic stack operations problem&quot;">
+      <created>1705268203884</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705268203884</updated>
+    </task>
+    <task id="LOCAL-00011" summary="&quot;completed reverse numbers problem&quot;">
+      <created>1705268237552</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705268237552</updated>
+    </task>
+    <task id="LOCAL-00012" summary="&quot;completed maximum element problem&quot;">
+      <created>1705268254193</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705268254193</updated>
+    </task>
+    <task id="LOCAL-00013" summary="&quot;completed recursive problem fibonacci sequence&quot;">
+      <created>1705346919199</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705346919199</updated>
+    </task>
+    <task id="LOCAL-00014" summary="&quot;completed parking lot problem&quot;">
+      <created>1705524863436</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1705524863436</updated>
+    </task>
+    <task id="LOCAL-00015" summary="&quot;completed softuni party problem&quot;">
+      <created>1705524880435</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1705524880435</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;first commit&quot;" />
+    <MESSAGE value="&quot;Completed BrowserHistory task&quot;" />
+    <MESSAGE value="&quot;Completed SimpleCalculator task&quot;" />
+    <MESSAGE value="&quot;Completed Decimal To Binary Converter&quot;" />
+    <MESSAGE value="&quot;Completed Printer Queue&quot;" />
+    <MESSAGE value="&quot;Solved Hot Potato Problem&quot;" />
+    <MESSAGE value="&quot;Solved Matching Brackets &amp; Math Potato&quot;" />
+    <MESSAGE value="&quot;Completed Balanced Parentheses Problem&quot;" />
+    <MESSAGE value="&quot;Completed Basic Queue Operations Problem&quot;" />
+    <MESSAGE value="&quot;completed basic stack operations problem&quot;" />
+    <MESSAGE value="&quot;completed reverse numbers problem&quot;" />
+    <MESSAGE value="&quot;completed maximum element problem&quot;" />
+    <MESSAGE value="&quot;completed recursive problem fibonacci sequence&quot;" />
+    <MESSAGE value="&quot;completed parking lot problem&quot;" />
+    <MESSAGE value="&quot;completed softuni party problem&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;completed softuni party problem&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StacksAndQueues/SimpleCalculator.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StacksAndQueues/MathPotato.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StacksAndQueuesExercise/BasicStackOperations.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StacksAndQueuesExercise/MaximumElement.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StacksAndQueuesExercise/MaximumElement.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StacksAndQueuesExercise/BalancedParentheses.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StacksAndQueuesExercise/Fibonacci.java</url>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StacksAndQueuesExercise/Fibonacci.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SetsAndMaps/Voina.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SetsAndMaps/CountRealNumbers.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/StacksAndQueuesExercise/MaximumElement.java</url>
+          <line>28</line>
+          <properties class="StacksAndQueuesExercise.MaximumElement" method="findHighestNumber">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/StacksAndQueuesExercise/Fibonacci.java</url>
+          <line>4</line>
+          <properties class="StacksAndQueuesExercise.Fibonacci">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/StacksAndQueuesExercise/Fibonacci.java</url>
+          <line>12</line>
+          <properties class="StacksAndQueuesExercise.Fibonacci" method="fibonacci">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
