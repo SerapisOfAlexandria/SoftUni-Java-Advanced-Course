@@ -20,11 +20,10 @@ public class WriteToFile {
             while (oneByte >= 0) {
                 char ch = (char) oneByte;
 
-                if (punctuation.contains(ch)) {
-
-                } else {
+                if (!(punctuation.contains(ch))) {
                     fileOutputStream.write(oneByte);
                 }
+
                 oneByte = fileInputStream.read();
             }
 
