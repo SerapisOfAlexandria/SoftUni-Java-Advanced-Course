@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36b6828c-6e8d-40ab-8fc3-858427627f7b" name="Changes" comment="&quot;completed Copy Bytes problem&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/CountUppercaseWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/FilterAge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/FindEvenOrOdds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/SortEvenNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/SumNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StreamsFilesAndDirectories/ExtractIntegers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StreamsFilesAndDirectories/ListFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StreamsFilesAndDirectories/NestedFolders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StreamsFilesAndDirectories/SortLines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StreamsFilesAndDirectories/WriteEveryThirdLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DefiningClasses/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +26,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="2am64LKwNR4lx5UEXY7UQIj0F7j" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,6 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
