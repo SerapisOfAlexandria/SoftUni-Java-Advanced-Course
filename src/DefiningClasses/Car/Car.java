@@ -3,7 +3,19 @@ package DefiningClasses.Car;
 public class Car {
     private String brand;
     private String model;
-    private int horsepower;
+    private String horsepower;
+
+    public Car(String brand) {
+        this.brand = brand;
+        this.model = "unknown";
+        this.horsepower = "-1";
+    }
+
+    public Car(String brand, String model, String horsepower) {
+        this.brand = brand;
+        this.model = model;
+        this.horsepower = horsepower;
+    }
 
     public String getBrand() {
         return brand;
@@ -21,15 +33,15 @@ public class Car {
         this.model = model;
     }
 
-    public int getHorsepower() {
+    public String getHorsepower() {
         return horsepower;
     }
 
-    public void setHorsepower(int horsepower) {
+    public void setHorsepower(String horsepower) {
         this.horsepower = horsepower;
     }
 
     public void getInfo() {
-        System.out.printf("This car is: %s %s - %d HP\n", getBrand(), getModel(), getHorsepower());
+        System.out.printf("The car is: %s %s - %s HP.\n", getBrand(), getModel(), getHorsepower());
     }
 }
