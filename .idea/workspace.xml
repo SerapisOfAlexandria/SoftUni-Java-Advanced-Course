@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36b6828c-6e8d-40ab-8fc3-858427627f7b" name="Changes" comment="&quot;completed Bank Account problem&quot;">
-      <change afterPath="$PROJECT_DIR$/src/DefiningClassesExercise/OpinionBall/Person.java" afterDir="false" />
+    <list default="true" id="36b6828c-6e8d-40ab-8fc3-858427627f7b" name="Changes" comment="&quot;completed OpinionPoll problem&quot;">
+      <change afterPath="$PROJECT_DIR$/src/DefiningClassesExercise/CompanyRoster/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DefiningClassesExercise/CompanyRoster/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DefiningClassesExercise/OpinionBall.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DefiningClassesExercise.OpinionBall.Main">
+  <component name="RunManager" selected="Application.DefiningClassesExercise.CompanyRoster.Main">
+    <configuration name="DefiningClassesExercise.CompanyRoster.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DefiningClassesExercise.CompanyRoster.Main" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DefiningClassesExercise.CompanyRoster.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DefiningClassesExercise.OpinionBall.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DefiningClassesExercise.OpinionBall.Main" />
       <module name="JavaAdvanced" />
@@ -68,19 +83,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DefiningClasses.Bank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindEvenOrOdds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.FindEvenOrOdds" />
-      <module name="JavaAdvanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FunctionalProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DefiningClassesExercise.CompanyRoster.Main" />
         <item itemvalue="Application.DefiningClassesExercise.OpinionBall.Main" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.DefiningClasses.Bank.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FindEvenOrOdds" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706449448610</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="&quot;completed OpinionPoll problem&quot;">
+      <created>1706556213840</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1706556213840</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -400,7 +409,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;completed maximum element problem&quot;" />
     <MESSAGE value="&quot;completed recursive problem fibonacci sequence&quot;" />
     <MESSAGE value="&quot;completed parking lot problem&quot;" />
     <MESSAGE value="&quot;completed softuni party problem&quot;" />
@@ -425,7 +433,8 @@
     <MESSAGE value="&quot;fixed JDK bug&quot;" />
     <MESSAGE value="&quot;added constructors to Car class&quot;" />
     <MESSAGE value="&quot;completed Bank Account problem&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;completed Bank Account problem&quot;" />
+    <MESSAGE value="&quot;completed OpinionPoll problem&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;completed OpinionPoll problem&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
