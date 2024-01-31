@@ -35,7 +35,14 @@ public class Employee {
     }
 
     public String toString() {
-        return String.format("%s %.2f %s %s %s %d\n", this.name, this.salary, this.position, this.department, this.email, this.age);
+        return String.format("%s %.2f %s %s\n", this.name, this.salary, this.email, this.age);
     }
 
+    public double getSalary() {
+        return this.salary;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
 }

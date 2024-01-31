@@ -1,7 +1,5 @@
 package DefiningClassesExercise.CompanyRoster;
 
-import DefiningClassesExercise.OpinionBall.Person;
-
 import java.util.*;
 
 public class Main {
@@ -10,8 +8,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         List<Employee> employees = new ArrayList<>();
-        Map<String, List<Integer>> departmentsSalaries = new HashMap<>();
-        Map<String, Double> departmentsAvgSalaries = new HashMap<>();
+        Map<String, Double> departmentsTotalSalaries = new HashMap<>();
+        Map<String, Integer> countByDepartment = new HashMap<>();
         int n = Integer.parseInt(scanner.nextLine());
 
         for (int i = 0; i < n; i++) {
@@ -23,6 +21,14 @@ public class Main {
             int age;
             String email;
             Employee employee = null;
+
+            if (departmentsTotalSalaries.containsKey(department)) {
+                departmentsTotalSalaries.put(department, departmentsTotalSalaries.get(department) + salary);
+                countByDepartment.put(department, countByDepartment.get(department) + 1);
+            } else {
+                departmentsTotalSalaries.put(department, salary);
+                countByDepartment.put(department, 1);
+            }
 
             switch (employeeInfo.length) {
                 case 4:
@@ -47,9 +53,26 @@ public class Main {
             employees.add(employee);
         }
 
-        for (Employee emp : employees) {
-            System.out.print(emp.toString());
+        double highestAvgSalaryByDepartment = 0;
+        String departmentWithHighestAvgSalary = "";
+        Comparator<Employee> comparator = ((o1, o2) -> Double.compare(o2.getSalary(), o1.getSalary()));
+
+        for (String key : departmentsTotalSalaries.keySet()) {
+            if (highestAvgSalaryByDepartment < departmentsTotalSalaries.get(key) / countByDepartment.get(key)) {
+                highestAvgSalaryByDepartment = departmentsTotalSalaries.get(key) / countByDepartment.get(key);
+                departmentWithHighestAvgSalary = key;
+            }
         }
+
+        final String departmentWithHighestAvgSalaryFinal = departmentWithHighestAvgSalary;
+
+        System.out.println("Highest Average Salary: "+ departmentWithHighestAvgSalary);
+        employees.stream()
+                .filter(employee -> employee.getDepartment().equals(departmentWithHighestAvgSalaryFinal))
+                .sorted(comparator)
+                .map(Employee::toString)
+                .forEach(System.out::print);
+
     }
 }
 
