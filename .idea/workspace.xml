@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36b6828c-6e8d-40ab-8fc3-858427627f7b" name="Changes" comment="&quot;finished saving logic for Employee objects&quot;">
+    <list default="true" id="36b6828c-6e8d-40ab-8fc3-858427627f7b" name="Changes" comment="&quot;finished problem Company Roster&quot;">
+      <change afterPath="$PROJECT_DIR$/src/DefiningClassesExercise/SpeedRacing/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DefiningClassesExercise/SpeedRacing/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DefiningClassesExercise/CompanyRoster/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DefiningClassesExercise/CompanyRoster/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DefiningClassesExercise/CompanyRoster/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DefiningClassesExercise/CompanyRoster/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DefiningClassesExercise.CompanyRoster.Main">
+  <component name="RunManager" selected="Application.DefiningClassesExercise.SpeedRacing.Main">
     <configuration name="DefiningClassesExercise.CompanyRoster.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DefiningClassesExercise.CompanyRoster.Main" />
       <module name="JavaAdvanced" />
@@ -76,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefiningClasses.Bank.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefiningClasses.Bank.Main" />
+    <configuration name="DefiningClassesExercise.SpeedRacing.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DefiningClassesExercise.SpeedRacing.Main" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DefiningClasses.Bank.*" />
+          <option name="PATTERN" value="DefiningClassesExercise.SpeedRacing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefiningClasses.Car.Main" />
+    <configuration name="DefiningClasses.Bank.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DefiningClasses.Bank.Main" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DefiningClasses.Car.*" />
+          <option name="PATTERN" value="DefiningClasses.Bank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DefiningClassesExercise.SpeedRacing.Main" />
         <item itemvalue="Application.DefiningClassesExercise.CompanyRoster.Main" />
         <item itemvalue="Application.DefiningClassesExercise.OpinionBall.Main" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.DefiningClasses.Bank.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -400,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706715761079</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="&quot;finished problem Company Roster&quot;">
+      <created>1706722787517</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1706722787517</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,7 +422,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;completed parking lot problem&quot;" />
     <MESSAGE value="&quot;completed softuni party problem&quot;" />
     <MESSAGE value="&quot;completed average student grades problem&quot;" />
     <MESSAGE value="&quot;completed count real numbers problem&quot;" />
@@ -440,7 +446,8 @@
     <MESSAGE value="&quot;completed Bank Account problem&quot;" />
     <MESSAGE value="&quot;completed OpinionPoll problem&quot;" />
     <MESSAGE value="&quot;finished saving logic for Employee objects&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;finished saving logic for Employee objects&quot;" />
+    <MESSAGE value="&quot;finished problem Company Roster&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;finished problem Company Roster&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
