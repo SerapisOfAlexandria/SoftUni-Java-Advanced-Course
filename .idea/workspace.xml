@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36b6828c-6e8d-40ab-8fc3-858427627f7b" name="Changes" comment="&quot;finished problem Speed Racing&quot;">
-      <change afterPath="$PROJECT_DIR$/src/DefiningClassesExercise/RawData/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DefiningClassesExercise/RawData/Main.java" afterDir="false" />
+    <list default="true" id="36b6828c-6e8d-40ab-8fc3-858427627f7b" name="Changes" comment="&quot;finished problem Raw Data&quot;">
+      <change afterPath="$PROJECT_DIR$/src/DefiningClassesExercise/CarSalesman/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DefiningClassesExercise/CarSalesman/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DefiningClassesExercise/CarSalesman/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +50,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.DefiningClassesExercise.CarSalesman.Main">
+    <configuration name="DefiningClassesExercise.CarSalesman.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DefiningClassesExercise.CarSalesman.Main" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DefiningClassesExercise.CarSalesman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DefiningClassesExercise.CompanyRoster.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DefiningClassesExercise.CompanyRoster.Main" />
       <module name="JavaAdvanced" />
@@ -102,26 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamsFilesAndDirectoriesExercise.test" />
-      <module name="JavaAdvanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StreamsFilesAndDirectoriesExercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DefiningClassesExercise.CarSalesman.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.DefiningClassesExercise.SpeedRacing.Main" />
         <item itemvalue="Application.DefiningClassesExercise.CompanyRoster.Main" />
         <item itemvalue="Application.DefiningClassesExercise.OpinionBall.Main" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -414,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706725475548</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="&quot;finished problem Raw Data&quot;">
+      <created>1706732414302</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1706732414302</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -429,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;completed average student grades problem&quot;" />
     <MESSAGE value="&quot;completed count real numbers problem&quot;" />
     <MESSAGE value="&quot;completed voina problem&quot;" />
     <MESSAGE value="&quot;finished Academy Graduation problem&quot;" />
@@ -454,7 +461,8 @@
     <MESSAGE value="&quot;finished saving logic for Employee objects&quot;" />
     <MESSAGE value="&quot;finished problem Company Roster&quot;" />
     <MESSAGE value="&quot;finished problem Speed Racing&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;finished problem Speed Racing&quot;" />
+    <MESSAGE value="&quot;finished problem Raw Data&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;finished problem Raw Data&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
