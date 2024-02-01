@@ -1,16 +1,16 @@
 package DefiningClassesExercise.CarSalesman;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
-        Map<String, Engine> engines = new LinkedHashMap<>();
-        Map<String, Car> cars = new LinkedHashMap<>();
+        List<Engine> engineList = new ArrayList<>();
+        List<Car> carList = new ArrayList<>();
 
         //Engine
         int n = Integer.parseInt(scanner.nextLine());
@@ -18,61 +18,59 @@ public class Main {
             String[] infoEngine = scanner.nextLine().split("\\s+");
             String engineModel = infoEngine[0];
             String enginePower = infoEngine[1];
+            String displacement = "n/a";
+            String efficiency = "n/a";
             Engine engine = null;
-            String displacement = "";
 
-            switch (infoEngine.length) {
-                case 2:
-                    engine = new Engine(engineModel, enginePower);
-                    break;
-                case 3:
-                    if (infoEngine[2].matches("\\d+")) {
-                        engine = new Engine(engineModel, enginePower, infoEngine[2], "n/a");
-                    } else {
-                        engine = new Engine(engineModel, enginePower,"n/a", infoEngine[2]);
-                    }
-                    break;
-                case 4:
-                    displacement = infoEngine[2];
-                    String efficiency = infoEngine[3];
-                    engine = new Engine(engineModel, enginePower, displacement, efficiency);
-                    break;
+            if (infoEngine.length == 4) {
+                engine = new Engine(engineModel, enginePower, infoEngine[2], infoEngine[3]);
+            } else if (infoEngine.length == 3) {
+                if (infoEngine[2].matches("\\d+")) {
+                    engine = new Engine(engineModel, enginePower, infoEngine[2], "n/a");
+                } else {
+                    engine = new Engine(engineModel, enginePower, "n/a", infoEngine[2]);
+                }
+            } else {
+                engine = new Engine(engineModel, enginePower, displacement, efficiency);
             }
 
-            engines.put(engineModel, engine);
+            engineList.add(engine);
         }
 
         //Car
-        n = Integer.parseInt(scanner.nextLine());
-        for (int i = 0; i < n; i++) {
-           String[] infoCars = scanner.nextLine().split("\\s+");
-           String carModel = infoCars[0];
-           String carEngine = infoCars[1];
-           Car car = null;
-           String weight = "";
+        int m = Integer.parseInt(scanner.nextLine());
+        for (int i = 0; i < m; i++) {
+            String[] infoCars = scanner.nextLine().split("\\s+");
+            String carModel = infoCars[0];
+            Engine carEngine = null;
+            String weight = "n/a";
+            String color = "n/a";
+            Car car = null;
 
-           switch (infoCars.length) {
-               case 2:
-                   car = new Car(carModel, engines.get(carEngine));
-                   break;
-               case 3:
-                    if (infoCars[2].matches("\\d+")) {
-                        car = new Car(carModel, engines.get(carEngine), infoCars[2]);
-                    } else {
-                        car = new Car(carModel, engines.get(carEngine), "n/a", infoCars[2]);
-                    }
-                   break;
-               case 4:
-                   weight = infoCars[2];
-                   String color = infoCars[3];
-                   car = new Car(carModel, engines.get(carEngine), weight, color);
-                   break;
-           }
+            for (Engine e : engineList) {
+                if (e.model.equals(infoCars[1])) {
+                    carEngine = e;
+                    break;
+                }
+            }
 
-           cars.put(carModel, car);
+            if (infoCars.length == 4) {
+                car = new Car(carModel, carEngine, infoCars[2], infoCars[3]);
+            } else if (infoCars.length == 3) {
+                if (infoCars[2].matches("\\d+")) {
+                    car = new Car(carModel, carEngine, infoCars[2], "n/a");
+                } else {
+                    car = new Car(carModel, carEngine, "n/a", infoCars[2]);
+                }
+            } else {
+                car = new Car(carModel, carEngine, "n/a", "n/a");
+            }
+
+            carList.add(car);
         }
 
-        cars.entrySet().stream()
-                .forEach(entry -> System.out.print(entry.getValue().toString()));
+        for (Car car : carList) {
+            System.out.println(car.toString());
+        }
     }
 }

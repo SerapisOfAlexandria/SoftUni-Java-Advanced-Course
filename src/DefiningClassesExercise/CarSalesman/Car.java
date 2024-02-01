@@ -13,14 +13,6 @@ public class Car {
         this.color = color;
     }
 
-    public Car(String model, Engine engine, String weight) {
-        this(model, engine, weight, "n/a");
-    }
-
-    public Car(String model, Engine engine) {
-        this(model, engine, "n/a", "n/a");
-    }
-
     @Override
     public String toString() {
         return String.format("%s:\n" +
@@ -29,7 +21,7 @@ public class Car {
                 "Displacement: %s\n" +
                 "Efficiency: %s\n" +
                 "Weight: %s\n" +
-                "Color: %s\n",
+                "Color: %s",
                 model,
                 engine.model,
                 engine.power,
