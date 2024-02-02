@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36b6828c-6e8d-40ab-8fc3-858427627f7b" name="Changes" comment="&quot;finished problem Raw Data&quot;">
-      <change afterPath="$PROJECT_DIR$/src/DefiningClassesExercise/CarSalesman/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DefiningClassesExercise/CarSalesman/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DefiningClassesExercise/CarSalesman/Main.java" afterDir="false" />
+    <list default="true" id="36b6828c-6e8d-40ab-8fc3-858427627f7b" name="Changes" comment="&quot;switched maps for lists, successfully compiles&quot;">
+      <change afterPath="$PROJECT_DIR$/src/DefiningClassesExercise/PokemonTrainer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DefiningClassesExercise/PokemonTrainer/Pokemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DefiningClassesExercise/PokemonTrainer/Trainer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +36,9 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2am64LKwNR4lx5UEXY7UQIj0F7j" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,7 +52,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DefiningClassesExercise.CarSalesman.Main">
+  <component name="RunManager" selected="Application.DefiningClassesExercise.PokemonTrainer.Main">
     <configuration name="DefiningClassesExercise.CarSalesman.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DefiningClassesExercise.CarSalesman.Main" />
       <module name="JavaAdvanced" />
@@ -77,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefiningClassesExercise.OpinionBall.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefiningClassesExercise.OpinionBall.Main" />
+    <configuration name="DefiningClassesExercise.PokemonTrainer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DefiningClassesExercise.PokemonTrainer.Main" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DefiningClassesExercise.OpinionBall.*" />
+          <option name="PATTERN" value="DefiningClassesExercise.PokemonTrainer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DefiningClassesExercise.PokemonTrainer.Main" />
         <item itemvalue="Application.DefiningClassesExercise.CarSalesman.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.DefiningClassesExercise.SpeedRacing.Main" />
         <item itemvalue="Application.DefiningClassesExercise.CompanyRoster.Main" />
-        <item itemvalue="Application.DefiningClassesExercise.OpinionBall.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -422,7 +424,21 @@
       <option name="project" value="LOCAL" />
       <updated>1706732414302</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="&quot;needs debugging, output is not correct 2/10 times&quot;">
+      <created>1706738326528</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1706738326528</updated>
+    </task>
+    <task id="LOCAL-00043" summary="&quot;switched maps for lists, successfully compiles&quot;">
+      <created>1706815284372</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1706815284373</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -437,8 +453,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;completed count real numbers problem&quot;" />
-    <MESSAGE value="&quot;completed voina problem&quot;" />
     <MESSAGE value="&quot;finished Academy Graduation problem&quot;" />
     <MESSAGE value="&quot;finished Cities By Continent And Country problem&quot;" />
     <MESSAGE value="&quot;finished Count Symbols problem&quot;" />
@@ -462,7 +476,9 @@
     <MESSAGE value="&quot;finished problem Company Roster&quot;" />
     <MESSAGE value="&quot;finished problem Speed Racing&quot;" />
     <MESSAGE value="&quot;finished problem Raw Data&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;finished problem Raw Data&quot;" />
+    <MESSAGE value="&quot;needs debugging, output is not correct 2/10 times&quot;" />
+    <MESSAGE value="&quot;switched maps for lists, successfully compiles&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;switched maps for lists, successfully compiles&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -581,6 +597,36 @@
           <line>30</line>
           <option name="timeStamp" value="81" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DefiningClassesExercise/CarSalesman/Main.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DefiningClassesExercise/CarSalesman/Main.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DefiningClassesExercise/CarSalesman/Main.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DefiningClassesExercise/PokemonTrainer/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DefiningClassesExercise/PokemonTrainer/Main.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DefiningClassesExercise/PokemonTrainer/Main.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/StacksAndQueuesExercise/MaximumElement.java</url>
           <line>28</line>
@@ -615,5 +661,10 @@
         <watch expression="pathInp" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaAdvanced$DefiningClassesExercise_PokemonTrainer_Main.ic" NAME="DefiningClassesExercise.PokemonTrainer.Main Coverage Results" MODIFIED="1706818045040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>DefiningClassesExercise.PokemonTrainer.*</FILTER>
+    </SUITE>
   </component>
 </project>
