@@ -66,4 +66,8 @@ public class CustomList <T extends Comparable> {
         customList.forEach(System.out::println);
     }
 
+    public void sort() {
+        customList.sort(((o1, o2) -> o1.compareTo(o2)));
+    }
+
 }

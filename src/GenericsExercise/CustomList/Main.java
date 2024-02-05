@@ -42,6 +42,9 @@ public class Main {
                 case "Print":
                     customList.printEach();
                     break;
+                case "Sort":
+                    customList.sort();
+                    break;
             }
             command = scanner.nextLine().split("\\s+");
         }
