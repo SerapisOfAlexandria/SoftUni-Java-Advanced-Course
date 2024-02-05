@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36b6828c-6e8d-40ab-8fc3-858427627f7b" name="Changes" comment="&quot;completed Pokemon problem&quot;">
-      <change afterPath="$PROJECT_DIR$/src/DefiningClassesExercise/Google/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DefiningClassesExercise/Google/Person.java" afterDir="false" />
+    <list default="true" id="36b6828c-6e8d-40ab-8fc3-858427627f7b" name="Changes" comment="&quot;finished Scale problem&quot;">
+      <change afterPath="$PROJECT_DIR$/src/GenericsExercise/CustomList/CustomList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenericsExercise/CustomList/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenericsExercise/GenericCountMethodDouble/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenericsExercise/GenericCountMethodDouble/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_28_2024_12_22_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_28_2024_12_22_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,16 +52,23 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Serapis/Desktop/Java/JavaAdvanced/src/GenericsExercise/GenericBoxOfInteger&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DefiningClassesExercise.Google.Main">
-    <configuration name="DefiningClassesExercise.CarSalesman.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefiningClassesExercise.CarSalesman.Main" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Serapis\Desktop\Java\JavaAdvanced\src\GenericsExercise\GenericBoxOfInteger" />
+      <recent name="C:\Users\Serapis\Desktop\Java\JavaAdvanced\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GenericsExercise.CustomList.Main">
+    <configuration name="GenericsExercise.CustomList.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericsExercise.CustomList.Main" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DefiningClassesExercise.CarSalesman.*" />
+          <option name="PATTERN" value="GenericsExercise.CustomList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefiningClassesExercise.Google.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefiningClassesExercise.Google.Main" />
+    <configuration name="GenericsExercise.GenericCountMethodDouble.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericsExercise.GenericCountMethodDouble.Main" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DefiningClassesExercise.Google.*" />
+          <option name="PATTERN" value="GenericsExercise.GenericCountMethodDouble.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefiningClassesExercise.PokemonTrainer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefiningClassesExercise.PokemonTrainer.Main" />
+    <configuration name="GenericsExercise.GenericCountMethodString.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericsExercise.GenericCountMethodString.Main" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DefiningClassesExercise.PokemonTrainer.*" />
+          <option name="PATTERN" value="GenericsExercise.GenericCountMethodString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefiningClassesExercise.SpeedRacing.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefiningClassesExercise.SpeedRacing.Main" />
+    <configuration name="GenericsExercise.GenericSwapMethodInteger.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericsExercise.GenericSwapMethodInteger.Main" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DefiningClassesExercise.SpeedRacing.*" />
+          <option name="PATTERN" value="GenericsExercise.GenericSwapMethodInteger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +116,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefiningClassesExercise.RawData.Main" />
+      <option name="MAIN_CLASS_NAME" value="GenericsExercise.GenericSwapMethod.Main" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DefiningClassesExercise.RawData.*" />
+          <option name="PATTERN" value="GenericsExercise.GenericSwapMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DefiningClassesExercise.Google.Main" />
-        <item itemvalue="Application.DefiningClassesExercise.PokemonTrainer.Main" />
-        <item itemvalue="Application.DefiningClassesExercise.CarSalesman.Main" />
+        <item itemvalue="Application.GenericsExercise.CustomList.Main" />
+        <item itemvalue="Application.GenericsExercise.GenericCountMethodDouble.Main" />
+        <item itemvalue="Application.GenericsExercise.GenericCountMethodString.Main" />
+        <item itemvalue="Application.GenericsExercise.GenericSwapMethodInteger.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.DefiningClassesExercise.SpeedRacing.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -135,55 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704911217747</updated>
-    </task>
-    <task id="LOCAL-00001" summary="&quot;first commit&quot;">
-      <created>1704912210298</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1704912210298</updated>
-    </task>
-    <task id="LOCAL-00002" summary="&quot;Completed BrowserHistory task&quot;">
-      <created>1704921015618</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1704921015618</updated>
-    </task>
-    <task id="LOCAL-00003" summary="&quot;Completed SimpleCalculator task&quot;">
-      <created>1704921033657</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1704921033657</updated>
-    </task>
-    <task id="LOCAL-00004" summary="&quot;Completed Decimal To Binary Converter&quot;">
-      <created>1704990458459</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1704990458459</updated>
-    </task>
-    <task id="LOCAL-00005" summary="&quot;Completed Printer Queue&quot;">
-      <created>1705133829893</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1705133829893</updated>
-    </task>
-    <task id="LOCAL-00006" summary="&quot;Solved Hot Potato Problem&quot;">
-      <created>1705138691456</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1705138691456</updated>
-    </task>
-    <task id="LOCAL-00007" summary="&quot;Solved Matching Brackets &amp; Math Potato&quot;">
-      <created>1705150378706</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1705150378706</updated>
     </task>
     <task id="LOCAL-00008" summary="&quot;Completed Balanced Parentheses Problem&quot;">
       <created>1705268163522</created>
@@ -444,7 +406,91 @@
       <option name="project" value="LOCAL" />
       <updated>1706901542672</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="&quot;completed Google problem&quot;">
+      <created>1706943712996</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1706943712996</updated>
+    </task>
+    <task id="LOCAL-00046" summary="&quot;completed ArrayCreator problem&quot;">
+      <created>1707079197767</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1707079197767</updated>
+    </task>
+    <task id="LOCAL-00047" summary="&quot;completed Box problem&quot;">
+      <created>1707079219601</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1707079219601</updated>
+    </task>
+    <task id="LOCAL-00048" summary="&quot;completed Box problem&quot;">
+      <created>1707079226890</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1707079226890</updated>
+    </task>
+    <task id="LOCAL-00049" summary="&quot;completed BoxOfStrings problem&quot;">
+      <created>1707079242983</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1707079242983</updated>
+    </task>
+    <task id="LOCAL-00050" summary="&quot;completed BoxSwaper problem&quot;">
+      <created>1707079259864</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1707079259864</updated>
+    </task>
+    <task id="LOCAL-00051" summary="&quot;completed GenericSwap problem&quot;">
+      <created>1707079285637</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1707079285637</updated>
+    </task>
+    <task id="LOCAL-00052" summary="&quot;completed Jar problem&quot;">
+      <created>1707079306201</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1707079306201</updated>
+    </task>
+    <task id="LOCAL-00053" summary="&quot;main methods for all the problems&quot;">
+      <created>1707079372769</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1707079372769</updated>
+    </task>
+    <task id="LOCAL-00054" summary="&quot;finished ListUtils problem&quot;">
+      <created>1707079390247</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1707079390247</updated>
+    </task>
+    <task id="LOCAL-00055" summary="&quot;finished Person problem&quot;">
+      <created>1707079431125</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1707079431125</updated>
+    </task>
+    <task id="LOCAL-00056" summary="&quot;finished Scale problem&quot;">
+      <created>1707079447142</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1707079447142</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -459,17 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;finished Cities By Continent And Country problem&quot;" />
-    <MESSAGE value="&quot;finished Count Symbols problem&quot;" />
-    <MESSAGE value="&quot;finished Fix Emails problem&quot;" />
-    <MESSAGE value="&quot;finished Hands Of Cards problem&quot;" />
-    <MESSAGE value="&quot;finished Largest Three Numbers problem&quot;" />
-    <MESSAGE value="&quot;finished Periodic Table problem&quot;" />
-    <MESSAGE value="&quot;finished Phone Book problem&quot;" />
-    <MESSAGE value="&quot;finished Product Shop problem&quot;" />
-    <MESSAGE value="&quot;finished Read File problem&quot;" />
-    <MESSAGE value="&quot;finished Sets Of Elements problem&quot;" />
-    <MESSAGE value="&quot;finished Unique Usernames problem&quot;" />
     <MESSAGE value="&quot;finished Write To File problem&quot;" />
     <MESSAGE value="&quot;corrected Write To File problem for better readability&quot;" />
     <MESSAGE value="&quot;completed Copy Bytes problem&quot;" />
@@ -484,7 +519,18 @@
     <MESSAGE value="&quot;needs debugging, output is not correct 2/10 times&quot;" />
     <MESSAGE value="&quot;switched maps for lists, successfully compiles&quot;" />
     <MESSAGE value="&quot;completed Pokemon problem&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;completed Pokemon problem&quot;" />
+    <MESSAGE value="&quot;completed Google problem&quot;" />
+    <MESSAGE value="&quot;completed ArrayCreator problem&quot;" />
+    <MESSAGE value="&quot;completed Box problem&quot;" />
+    <MESSAGE value="&quot;completed BoxOfStrings problem&quot;" />
+    <MESSAGE value="&quot;completed BoxSwaper problem&quot;" />
+    <MESSAGE value="&quot;completed GenericSwap problem&quot;" />
+    <MESSAGE value="&quot;completed Jar problem&quot;" />
+    <MESSAGE value="&quot;main methods for all the problems&quot;" />
+    <MESSAGE value="&quot;finished ListUtils problem&quot;" />
+    <MESSAGE value="&quot;finished Person problem&quot;" />
+    <MESSAGE value="&quot;finished Scale problem&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;finished Scale problem&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -689,11 +735,23 @@
           </properties>
           <option name="timeStamp" value="120" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/GenericsExercise/GenericBox/Main.java</url>
+          <line>7</line>
+          <properties class="GenericsExercise.GenericBox.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="pathInp" />
+        <watch expression="personMap" language="JAVA" />
+        <watch expression="parentName" />
+        <watch expression="childDate" />
       </configuration>
     </watches-manager>
   </component>
