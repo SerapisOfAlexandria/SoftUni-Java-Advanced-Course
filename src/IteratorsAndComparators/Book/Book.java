@@ -10,8 +10,8 @@ public class Book {
     private List<String> authors;
 
     public Book(String title, int year, String... authors) {
-        setTitle(title);
-        setYear(year);
+        this.title = title;
+        this.year = year;
         this.authors = new ArrayList<>(Arrays.asList(authors));
     }
 
@@ -36,6 +36,6 @@ public class Book {
     }
 
     public void setAuthors(List<String> authors) {
-       this.authors = authors;
+        this.authors = authors;
     }
 }

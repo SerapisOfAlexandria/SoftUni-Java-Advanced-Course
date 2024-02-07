@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36b6828c-6e8d-40ab-8fc3-858427627f7b" name="Changes" comment="&quot;finished Scale problem&quot;">
-      <change afterPath="$PROJECT_DIR$/src/GenericsExercise/CustomList/CustomList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenericsExercise/CustomList/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenericsExercise/GenericCountMethodDouble/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenericsExercise/GenericCountMethodDouble/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_28_2024_12_22_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_28_2024_12_22_PM__Changes_.xml" beforeDir="false" />
+    <list default="true" id="36b6828c-6e8d-40ab-8fc3-858427627f7b" name="Changes" comment="&quot;finished Book problem&quot;">
+      <change afterPath="$PROJECT_DIR$/src/IteratorsAndComparators/Book/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IteratorsAndComparators/Book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IteratorsAndComparators/Book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IteratorsAndComparators/Book/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IteratorsAndComparators/Book/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,23 +44,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Serapis/Desktop/Java/JavaAdvanced/src/GenericsExercise/GenericBoxOfInteger&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Serapis/Desktop/Java/JavaAdvanced/src/StreamsFilesAndDirectoriesExercise",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "fileTemplates"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Serapis\Desktop\Java\JavaAdvanced\src\StreamsFilesAndDirectoriesExercise" />
       <recent name="C:\Users\Serapis\Desktop\Java\JavaAdvanced\src\GenericsExercise\GenericBoxOfInteger" />
       <recent name="C:\Users\Serapis\Desktop\Java\JavaAdvanced\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericsExercise.CustomList.Main">
+  <component name="RunManager" selected="Application.IteratorsAndComparators.Book.Main">
     <configuration name="GenericsExercise.CustomList.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GenericsExercise.CustomList.Main" />
       <module name="JavaAdvanced" />
@@ -102,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericsExercise.GenericSwapMethodInteger.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GenericsExercise.GenericSwapMethodInteger.Main" />
+    <configuration name="IteratorsAndComparators.Library.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IteratorsAndComparators.Library.Main" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GenericsExercise.GenericSwapMethodInteger.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +119,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GenericsExercise.GenericSwapMethod.Main" />
+      <option name="MAIN_CLASS_NAME" value="IteratorsAndComparators.Book.Main" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GenericsExercise.GenericSwapMethod.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IteratorsAndComparators.Book.Main" />
+        <item itemvalue="Application.IteratorsAndComparators.Library.Main" />
         <item itemvalue="Application.GenericsExercise.CustomList.Main" />
         <item itemvalue="Application.GenericsExercise.GenericCountMethodDouble.Main" />
         <item itemvalue="Application.GenericsExercise.GenericCountMethodString.Main" />
-        <item itemvalue="Application.GenericsExercise.GenericSwapMethodInteger.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -146,34 +149,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704911217747</updated>
-    </task>
-    <task id="LOCAL-00008" summary="&quot;Completed Balanced Parentheses Problem&quot;">
-      <created>1705268163522</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1705268163522</updated>
-    </task>
-    <task id="LOCAL-00009" summary="&quot;Completed Basic Queue Operations Problem&quot;">
-      <created>1705268181145</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1705268181145</updated>
-    </task>
-    <task id="LOCAL-00010" summary="&quot;completed basic stack operations problem&quot;">
-      <created>1705268203884</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1705268203884</updated>
-    </task>
-    <task id="LOCAL-00011" summary="&quot;completed reverse numbers problem&quot;">
-      <created>1705268237552</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1705268237552</updated>
     </task>
     <task id="LOCAL-00012" summary="&quot;completed maximum element problem&quot;">
       <created>1705268254193</created>
@@ -490,7 +465,35 @@
       <option name="project" value="LOCAL" />
       <updated>1707079447142</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="&quot;finished GenericCountMethodDouble problem&quot;">
+      <created>1707129257568</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1707129257569</updated>
+    </task>
+    <task id="LOCAL-00058" summary="&quot;finished CustomList problem&quot;">
+      <created>1707129294837</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1707129294837</updated>
+    </task>
+    <task id="LOCAL-00059" summary="&quot;added sorting function to CustomList&quot;">
+      <created>1707129334038</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1707129334038</updated>
+    </task>
+    <task id="LOCAL-00060" summary="&quot;finished Book problem&quot;">
+      <created>1707166105377</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1707166105377</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -505,10 +508,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;finished Write To File problem&quot;" />
-    <MESSAGE value="&quot;corrected Write To File problem for better readability&quot;" />
-    <MESSAGE value="&quot;completed Copy Bytes problem&quot;" />
-    <MESSAGE value="&quot;fixed JDK bug&quot;" />
     <MESSAGE value="&quot;added constructors to Car class&quot;" />
     <MESSAGE value="&quot;completed Bank Account problem&quot;" />
     <MESSAGE value="&quot;completed OpinionPoll problem&quot;" />
@@ -530,7 +529,11 @@
     <MESSAGE value="&quot;finished ListUtils problem&quot;" />
     <MESSAGE value="&quot;finished Person problem&quot;" />
     <MESSAGE value="&quot;finished Scale problem&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;finished Scale problem&quot;" />
+    <MESSAGE value="&quot;finished GenericCountMethodDouble problem&quot;" />
+    <MESSAGE value="&quot;finished CustomList problem&quot;" />
+    <MESSAGE value="&quot;added sorting function to CustomList&quot;" />
+    <MESSAGE value="&quot;finished Book problem&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;finished Book problem&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
