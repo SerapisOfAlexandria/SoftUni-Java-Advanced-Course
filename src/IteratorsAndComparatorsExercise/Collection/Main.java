@@ -1,5 +1,6 @@
-package IteratorsAndComparatorsExercise.ListyIterator;
+package IteratorsAndComparatorsExercise.Collection;
 
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class Main {
@@ -11,7 +12,7 @@ public class Main {
         if (strings[0].equals("")) {
             strings = new String[0];
         }
-        ListyIterator listyIterator = new ListyIterator(strings);
+        Collection listyIterator = new Collection(strings);
         String command = scanner.nextLine();
 
         while (!command.equals("END")) {
@@ -24,6 +25,13 @@ public class Main {
                     break;
                 case "Print":
                     listyIterator.print();
+                    break;
+                case "PrintAll":
+                    Iterator<String> iterator = listyIterator.iterator();
+                    while (iterator.hasNext()) {
+                        System.out.print(iterator.next() + " ");
+                    }
+                    System.out.println();
                     break;
             }
             command = scanner.nextLine();
