@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36b6828c-6e8d-40ab-8fc3-858427627f7b" name="Changes" comment="&quot;finished Book problem&quot;">
-      <change afterPath="$PROJECT_DIR$/src/IteratorsAndComparators/Book/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="36b6828c-6e8d-40ab-8fc3-858427627f7b" name="Changes" comment="&quot;finished Book Comparator problem&quot;">
+      <change afterPath="$PROJECT_DIR$/src/BookComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IteratorsAndComparators/Book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IteratorsAndComparators/Book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IteratorsAndComparators/Book/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IteratorsAndComparators/Book/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
       <recent name="C:\Users\Serapis\Desktop\Java\JavaAdvanced\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IteratorsAndComparators.Book.Main">
+  <component name="RunManager" selected="Application.testing.Main">
     <configuration name="GenericsExercise.CustomList.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GenericsExercise.CustomList.Main" />
       <module name="JavaAdvanced" />
@@ -85,19 +83,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="GenericsExercise.GenericCountMethodDouble.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenericsExercise.GenericCountMethodString.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GenericsExercise.GenericCountMethodString.Main" />
-      <module name="JavaAdvanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GenericsExercise.GenericCountMethodString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,13 +116,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.testing.Main" />
         <item itemvalue="Application.IteratorsAndComparators.Book.Main" />
         <item itemvalue="Application.IteratorsAndComparators.Library.Main" />
         <item itemvalue="Application.GenericsExercise.CustomList.Main" />
         <item itemvalue="Application.GenericsExercise.GenericCountMethodDouble.Main" />
-        <item itemvalue="Application.GenericsExercise.GenericCountMethodString.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -149,20 +147,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704911217747</updated>
-    </task>
-    <task id="LOCAL-00012" summary="&quot;completed maximum element problem&quot;">
-      <created>1705268254193</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1705268254193</updated>
-    </task>
-    <task id="LOCAL-00013" summary="&quot;completed recursive problem fibonacci sequence&quot;">
-      <created>1705346919199</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1705346919199</updated>
     </task>
     <task id="LOCAL-00014" summary="&quot;completed parking lot problem&quot;">
       <created>1705524863436</created>
@@ -493,7 +477,21 @@
       <option name="project" value="LOCAL" />
       <updated>1707166105377</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="&quot;finished Library problem&quot;">
+      <created>1707332185542</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1707332185542</updated>
+    </task>
+    <task id="LOCAL-00062" summary="&quot;finished Book Comparator problem&quot;">
+      <created>1707417305234</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1707417305234</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -508,8 +506,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;added constructors to Car class&quot;" />
-    <MESSAGE value="&quot;completed Bank Account problem&quot;" />
     <MESSAGE value="&quot;completed OpinionPoll problem&quot;" />
     <MESSAGE value="&quot;finished saving logic for Employee objects&quot;" />
     <MESSAGE value="&quot;finished problem Company Roster&quot;" />
@@ -533,7 +529,9 @@
     <MESSAGE value="&quot;finished CustomList problem&quot;" />
     <MESSAGE value="&quot;added sorting function to CustomList&quot;" />
     <MESSAGE value="&quot;finished Book problem&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;finished Book problem&quot;" />
+    <MESSAGE value="&quot;finished Library problem&quot;" />
+    <MESSAGE value="&quot;finished Book Comparator problem&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;finished Book Comparator problem&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

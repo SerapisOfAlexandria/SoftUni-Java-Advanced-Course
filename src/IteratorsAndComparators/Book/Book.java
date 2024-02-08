@@ -1,19 +1,14 @@
 package IteratorsAndComparators.Book;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-
-public class Book  implements Comparable<Book>{
+public class Book implements Comparable<Book>{
     private String title;
+    private String author;
     private int year;
-    private List<String> authors;
 
-    public Book (String title, int year, String... authors) {
-        this.title = title;
-        this.year = year;
-        this.authors = new ArrayList<>(Arrays.asList(authors));
+    public Book(String title, String author, int year) {
+        setTitle(title);
+        setAuthor(author);
+        setYear(year);
     }
 
     public String getTitle() {
@@ -24,6 +19,14 @@ public class Book  implements Comparable<Book>{
         this.title = title;
     }
 
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
     public int getYear() {
         return year;
     }
@@ -32,19 +35,15 @@ public class Book  implements Comparable<Book>{
         this.year = year;
     }
 
-    public List<String> getAuthors() {
-        return authors;
-    }
-
-    public void setAuthors(List<String> authors) {
-        this.authors = authors;
-    }
-
     @Override
-    public int compareTo(Book o) {
-        if (getTitle().compareTo(o.getTitle()) == 0) {
-
+    public int compareTo(Book that) {
+        int object = that.title.compareTo(this.title);
+        if (object == 0) {
+            return Integer.compare(that.year, this.year);
+        } else if (object < 0) {
+            return -1;
+        } else {
+            return 1;
         }
-        return getTitle().compareTo(o.getTitle());
     }
 }
