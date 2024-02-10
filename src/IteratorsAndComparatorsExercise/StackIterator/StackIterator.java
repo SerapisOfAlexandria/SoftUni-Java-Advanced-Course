@@ -1,34 +1,43 @@
 package IteratorsAndComparatorsExercise.StackIterator;
 
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
-public class StackIterator implements Iterator<Long> {
-    int index;
-    List<Long> stack;
+public class StackIterator<String> implements Iterable<String> {
+    List<String> stack;
 
-    public StackIterator(List<Long> stack) {
+    public StackIterator(List<String> stack) {
         this.stack = stack;
-        this.index = stack.size() - 1;
+    }
+
+    public void pop() {
+        if (stack.isEmpty()) {
+            System.out.println("No elements");
+        } else {
+            stack.remove(stack.size() - 1);
+        }
+    }
+
+    public void push(List<String> elements) {
+        stack.addAll(elements);
     }
 
     @Override
-    public boolean hasNext() {
-        if (index <= 0) {
-            return false;
-        }
-        return true;
-    }
+    public Iterator<String> iterator() {
+        return new Iterator<String>() {
+            int index = stack.size() - 1;
 
-    @Override
-    public Long next() {
-        return stack.get(index--);
-    }
+            @Override
+            public boolean hasNext() {
+                if (index == -1) {
+                    return false;
+                }
+                return true;
+            }
 
-    public boolean isLast() {
-        if (index >= 0) {
-            return true;
-        }
-        return false;
+            @Override
+            public String next() {
+                return stack.get(index--);
+            }
+        };
     }
 }

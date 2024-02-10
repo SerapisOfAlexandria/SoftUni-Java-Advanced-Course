@@ -9,38 +9,31 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         String input = scanner.nextLine();
-        List<Long> integers;
+        List<String> tokens;
 
-        if (input.equals("Push")) {
-            integers = new ArrayList<>();
-        } else {
-            integers = Arrays.stream(input.replaceFirst("Push ", "").split(", "))
-                    .map(Long::parseLong)
+        tokens = Arrays.stream(input.split("[\\s,]+"))
+                    .skip(1)
                     .collect(Collectors.toList());
-        }
-
-        StackStructure<Long> stackStructure = new StackStructure<>(integers);
 
 
+        StackIterator<String> stackStructure = new StackIterator<>(tokens);
+        Iterator<String> stackIterator = stackStructure.iterator();
 
         String command = scanner.nextLine();
         while (!command.equals("END")) {
-            Iterator<Long> stackIterator = stackStructure.iterator();
-            if (stackIterator.hasNext()) {
-                stackIterator.next();
-            } else {
-                System.out.println("No elements");
+            if (command.contains("Push")) {
+                tokens = Arrays.stream(command.split("[\\s,]+"))
+                        .skip(1)
+                        .collect(Collectors.toList());
+                stackStructure.push(tokens);
+            } else if (command.equals("Pop")){
+                stackStructure.pop();
             }
             command = scanner.nextLine();
         }
 
-        StackIterator stackIteratorClass = new StackIterator(stackStructure.stack);
-        while (stackIteratorClass.hasNext() || stackIteratorClass.isLast()) {
-            System.out.println(stackIteratorClass.next());
-        }
-        stackIteratorClass = new StackIterator(stackStructure.stack);
-        while (stackIteratorClass.hasNext() || stackIteratorClass.isLast()) {
-            System.out.println(stackIteratorClass.next());
-        }
+        stackStructure.forEach(System.out::println);
+        stackStructure.forEach(System.out::println);
+
     }
 }
